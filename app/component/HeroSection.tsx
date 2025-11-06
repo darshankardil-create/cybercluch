@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
   autoPlay
   muted
   loop
-  className="h-full w-full object-cover"
+  className="lg:h-full lg:w-full object-cover  "
 >
   Your browser does not support the video tag.
 </video>

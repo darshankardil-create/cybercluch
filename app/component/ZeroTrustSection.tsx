@@ -12,14 +12,14 @@ const ZeroTrustSection: React.FC = () => {
             </h2>
           </div>
 
-          <div className="relative mx-auto flex h-[330px] w-[800px] items-center justify-center z-10 bg-black">
+          <div className="relative mx-auto flex h-[330px] w-[800px] items-center justify-center z-10 bg-black] ">
             <video
               src="coin.mp4"
               autoPlay
               muted
               loop
               playsInline
-              className="h-full w-full object-cover"
+              className="lg:h-full lg:w-full object-cover h-[48%] w-[48%] mr-[420px] lg:ml-[420px] "
             >
               Your browser does not support the video tag.
             </video>
